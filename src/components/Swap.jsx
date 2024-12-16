@@ -188,10 +188,12 @@ function Swap() {
             </div>
 
             {/* Footer Text */}
-            <p className="text-center text-gray-500 text-xs">
-                Built and Designed by Sunil
-            </p>
-        </div>
+            <footer className="container justify-center mx-auto px-4 py-6 sm:py-8 mt-8 sm:mt-12 border-t border-gray-800 text-center">
+                <p className="text-xs sm:text-sm text-gray-500 mb-2 sm:mb-0">
+                    Developed by <a href="https://sunilsimar.me/" className="text-blue-400 hover:underline">Sunil</a>
+                </p>
+            </footer >
+        </div >
     );
 }
 
